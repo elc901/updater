@@ -1,5 +1,4 @@
 -- обновления самого обновлятора ( не трогает программу, которая за пределами updater)
-
 local repo_url = "https://github.com/elc901/updater"
 local branch = "main"   
 local self_name = "ufu.lua"
@@ -50,3 +49,7 @@ exec('rmdir /S /Q "' .. temp_dir .. '"')
 exec('del "' .. zip_file .. '"')
 
 print("Обновление завершено! Ваш " .. self_name .. " не тронут.")
+-- конец
+
+-- запуск main.lua ( главного файла обновлятора )
+os.execute('start cmd /K lua main.lua')
