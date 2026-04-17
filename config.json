@@ -9,6 +9,7 @@
         "contributors": "links ( optional ); "
     },
     
-    "dev-log": "link ( optional )"
+    "dev-log": "link ( optional )",
+    "start-file": "file name"
 }
 
