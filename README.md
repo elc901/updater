@@ -24,7 +24,7 @@
 
  <code>Download the latest version from [releases](https://github.com/elc901/updater/releases)</code>
  
- <code>Place the updater folder in the root of your GitHub project only when creating a release. After creating the release, remove the updater folder from the code block in the repository (stay tuned for updates — I'll let you know when this step is no longer needed).</code>
+ <code>Place the updater folder in the root</code>
 
  <code>**IMPORTANT!** The main program file must be located next to the updater folder (in the root of your program).</code>
  
